@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  margin-left: 50px;
+}
+
+#slogan {
+  margin: auto 0px;
+}
+
+#first-img {
+  max-width: 10%;
+  height: auto;
+  margin-right: 150px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+#conteneur {
+  width: 1500px;
+  height: 350px;
+  margin: auto;
+  background-color: rgb(202, 196, 196);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#foot {
+  width: 1500px;
+  height: 130px;
+  margin: auto;
+  background-color: rgb(202, 196, 196);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+table > thead > tr > th {
+  border: 1px solid black;
+}
+
+tbody td {
+  border: 1px solid black;
+}
